@@ -37,7 +37,7 @@ export const stripeWebhooks = async (request, response) => {
           // Update credits in user account
           await User.updateOne(
             { _id: transaction.userId },
-            { $inc: { credits: traction.credits } }
+            { $inc: { credits: transaction.credits } }
           );
 
           // Update credit Payment status
