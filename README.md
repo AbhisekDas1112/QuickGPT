@@ -16,10 +16,10 @@ Quick-GPT is a sleek web application built with the MERN stack (or whichever sta
 ---
 
 ## 🧰 Tech Stack
-**Frontend:** React, React Router, Axios (or fetch)  
+**Frontend:** React, React Router, Axios
 **Backend:** Node.js, Express.js  
-**Database:** MongoDB (or whichever used)  
-**Authentication:** JWT (if used)  
+**Database:** MongoDB   
+**Authentication:** JWT  
 **Hosting:** Vercel (Frontend)
 
 ---
